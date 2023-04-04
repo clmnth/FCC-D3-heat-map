@@ -1,0 +1,16 @@
+body {
+  font-family: "Poppins";
+  font-weight: 200;
+}
+
+#title {
+  font-weight: lighter;
+  margin: 2rem 0 0 4rem;
+  white-space: nowrap;
+}
+
+#description {
+  font-weight: lighter;
+  margin: 0 4rem;
+  white-space: nowrap;
+}

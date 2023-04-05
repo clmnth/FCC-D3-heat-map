@@ -4,13 +4,29 @@ body {
 }
 
 #title {
-  font-weight: lighter;
-  margin: 2rem 0 0 4rem;
+  font-weight:lighter;
+  margin: 1rem 0 0 4rem;
   white-space: nowrap;
 }
 
 #description {
-  font-weight: lighter;
-  margin: 0 4rem;
+   font-weight:lighter;
+  margin: 0 0 -1rem 4rem;
   white-space: nowrap;
+}
+
+#tooltip {
+  color: white;
+  background-color: #262626;
+  position: absolute;
+  border-radius: 5px;
+  padding: 10px;
+  opacity: 0;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+.legend-label {
+  font-size: 1rem;
+  color: black;
 }
